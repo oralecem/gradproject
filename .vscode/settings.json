@@ -1,0 +1,8 @@
+{
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "html.format.endWithNewline": true,
+    "editor.formatOnSave": true,
+    "eslint.quiet": true,
+    "eslint.run": "onSave"
+}
