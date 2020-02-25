@@ -8,7 +8,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    return fetch('/time')
+    return fetch('http://127.0.0.1:5000/time')
       .then(res => res.json())
       .then(data => {
         this.setState(
@@ -35,7 +35,7 @@ export default class App extends Component {
 
     return (
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-        <p>The current time is {this.state.dataSource}.</p>
+        <Text>The current time is {this.state.dataSource}.</Text>
       </View>
     );
   }
